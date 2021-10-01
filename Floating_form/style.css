@@ -1,0 +1,78 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif cursive;
+}
+body {
+  background-image: url("main-bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.image {
+  width: 300px;
+  height: 500px;
+  position: absolute;
+  top: 25%;
+  right: 15%;
+}
+.image {
+  background-image: url("bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  top: 35%;
+  left: 15%;
+}
+.content .content-text .title {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.navbar {
+  box-shadow: 2px 2px black;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+.navbar li {
+  font-style: italic;
+  color: black;
+}
+
+.register-form input[type="text"],
+input[type="password"],
+input[type="email"] {
+  border: none;
+  border-bottom: 2px solid #0bfd03;
+  margin: 6px;
+  font-size: large;
+  width: 80%;
+  padding: 5px;
+}
+::placeholder {
+  color: rgb(8, 8, 8);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+}
+
+.login-form input[type="text"],
+input[type="password"] {
+  border: none;
+  border-bottom: 2px solid #0bfd03;
+  margin: 6px;
+  width: 80%;
+  padding: 5px;
+  font-size: large;
+}
+::placeholder {
+  color: rgb(8, 8, 8);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+}
